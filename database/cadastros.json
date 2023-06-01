@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "nome": "Carlos Henrique",
+    "sobrenome": "Moraes De Souza",
+    "dataNascimento": "26/09/1990",
+    "telefone": "99562645",
+    "endereço": "João Mariano Gorski",
+    "cidade": "Curitiba",
+    "estado": "Paraná"
+  },
+  {
+    "id": 2,
+    "nome": "Eduardo Fernades",
+    "sobrenome": "Oliveira Da Silva",
+    "dataNascimento": "04/02/1968",
+    "telefone": "992093420",
+    "endereço": "Carlos De Laet",
+    "cidade": "Joinvile",
+    "estado": "Santa Catarina"
+  },
+  {
+    "id": 3,
+    "nome": "Marcos Vinicios",
+    "sobrenome": "Santos",
+    "dataNascimento": "16/09/1975",
+    "telefone": "996863908",
+    "endereço": "Pedro Gusso",
+    "cidade": "Novo Hamburgo",
+    "estado": "Rio Grande Do Sul"
+  },
+  {
+    "id": 4,
+    "nome": "Everton",
+    "sobrenome": "Chagas",
+    "dataNascimento": "31/03/2003",
+    "telefone": "999314800",
+    "endereço": "El Salvador",
+    "cidade": "Uberlândia",
+    "estado": "São Paulo"
+  }
+]
