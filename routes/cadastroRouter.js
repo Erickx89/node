@@ -8,5 +8,6 @@ router.post('/', cadastroController.salvar);
 router.get('/:id', cadastroController.buscarPorId);
 router.put('/:id', cadastroController.atualizar);
 router.delete('/:id', cadastroController.excluir);
+router.get('/', cadastroController.listarUsuario); 
 
 module.exports = router;
