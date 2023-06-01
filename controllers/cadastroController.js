@@ -33,6 +33,31 @@ class CadastroController {
         await cadastroModel.findByIdAndRemove(String(_id));
         res.status(200).send();
     }
+    
+    async listarUsuario(req, res) {
+        const { nome, sobrenome, cidade, estado } = req.query;
+
+        const filtro = {};
+
+        if(nome) {
+            filtro.nome = nome;
+        }
+
+        if(sobrenome) {
+            filtro.sobrenome = sobrenome;
+        }
+
+        if(cidade) {
+            filtro.cidade = cidade;
+        }
+
+        if(estado) {
+            filtro.estado = estado;
+        }
+
+        const resultado = await cadastroModel.find(filtro);
+        res.status(200).json(resultado);
+    }
 }
 
 module.exports = new CadastroController();
